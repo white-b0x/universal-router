@@ -1,18 +1,20 @@
 {
-  "name": "@uniswap/universal-router",
-  "description": "Smart contracts for Universal Router",
+  "name": "@etcswap/universal-router",
+  "description": "Smart contracts for ETCswap Universal Router",
   "license": "GPL-2.0-or-later",
   "version": "2.1.0",
   "keywords": [
-    "uniswap",
+    "etcswap",
+    "ethereum-classic",
     "router",
     "universal router",
     "swap router"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Uniswap/universal-router"
+    "url": "https://github.com/etcswap/universal-router"
   },
+  "homepage": "https://etcswap.org",
   "files": [
     "contracts/base",
     "contracts/interfaces",
@@ -28,9 +30,9 @@
     "node": ">=14"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "5.0.2",
-    "@uniswap/v2-core": "1.0.1",
-    "@uniswap/v3-core": "1.0.0"
+    "@etcswap/v2-core": "github:white-b0x/v2-core#etc",
+    "@etcswap/v3-core": "github:white-b0x/v3-core#etc",
+    "@openzeppelin/contracts": "5.0.2"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "1.0.4",

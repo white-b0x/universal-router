@@ -8,7 +8,7 @@ import {IERC721Permit} from '@uniswap/v3-periphery/contracts/interfaces/IERC721P
 import {CalldataDecoder} from '@uniswap/v4-periphery/src/libraries/CalldataDecoder.sol';
 
 /// @title V3 to V4 Migrator
-/// @notice A contract that migrates liquidity from Uniswap V3 to V4
+/// @notice A contract that migrates liquidity from ETCswap V3 to V4
 abstract contract V3ToV4Migrator is MigratorImmutables {
     using CalldataDecoder for bytes;
 

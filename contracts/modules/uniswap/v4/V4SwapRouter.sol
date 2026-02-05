@@ -7,7 +7,7 @@ import {V4Router} from '@uniswap/v4-periphery/src/V4Router.sol';
 import {IPoolManager} from '@uniswap/v4-core/src/interfaces/IPoolManager.sol';
 import {Currency} from '@uniswap/v4-core/src/types/Currency.sol';
 
-/// @title Router for Uniswap v4 Trades
+/// @title Router for ETCswap V4 Trades
 abstract contract V4SwapRouter is V4Router, Permit2Payments {
     constructor(address _poolManager) V4Router(IPoolManager(_poolManager)) {}
 
